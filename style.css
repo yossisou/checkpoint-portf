@@ -1,0 +1,107 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+#titre{
+    color: red;
+    text-align: center;
+    border: 3px;
+    font-size: 50px;
+}
+
+li{
+    color: blue;
+}
+
+.paragraphe{
+    color: black;
+}
+
+body{
+    margin: 0%;
+    height: 3600px;
+    background-image: url(pexels-eberhardgross-844297.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: darkred;
+    text-align: center;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: 3px solid red;
+    margin: 6px;
+    height: 20px;
+    width: 120px;
+    border-radius: 8px;
+    
+    
+
+}
+
+button:hover{
+    background-color: blueviolet;
+    padding: 4px;
+    
+}
+
+li:first-child{
+    color: aqua;
+}
+
+li:last-child{
+    color: orange;
+}
+
+li:nth-child(2){
+    color: crimson;
+}
+
+li:nth-child(even){
+    background-color:pink;
+}
+
+li:nth-child(odd){
+    background-color: pink;
+}
+
+input:focus{
+    border: 2px solid red;
+}
+
+a{
+    color: green;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: fuchsia;
+}
+
+img{
+    border-radius: 50px;
+}
+.demititre{
+    color: blueviolet;
+}
+
+p{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2px;
+}
+
+#copy{
+    border: 8px;
+    color: brown;
+}
